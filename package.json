@@ -1,0 +1,21 @@
+{
+  "name": "expressive-form-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/Counter.jsx",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@expressive/react": "0.35.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@expressive/babel-preset-react": "^1.2.3",
+    "@types/react": "^18.2.22",
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite": "^4.4.5"
+  }
+}
