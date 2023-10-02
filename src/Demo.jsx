@@ -10,15 +10,19 @@ class Control extends Form {
 }
 
 const Demo = () => {
-  return (
-    <Provider for={Control}>
-      <h1>Example Form</h1>
-      <Input name="firstname" placeholder="Firstname" />
-      <Input name="lastname" placeholder="Lastname" />
-      <Input name="email" placeholder="Email Address" />
-      <Alert />
-    </Provider>
-  );
+  h1: {
+    fontSize: 1.3;
+    lineHeight: 1.1;
+    textAlign: center;
+  }
+
+  <Provider for={Control}>
+    <h1>Example Form</h1>
+    <Input name="firstname" placeholder="Firstname" />
+    <Input name="lastname" placeholder="Lastname" />
+    <Input name="email" placeholder="Email Address" />
+    <Alert />
+  </Provider>
 };
 
 const Alert = () => {
@@ -30,6 +34,29 @@ const Alert = () => {
 
     alert(`Current values in form are:\n\n` + values);
   });
+
+  button: {
+    display: block;
+    margin: auto;
+    borderRadius: 8;
+    border: px(1), solid, transparent;
+    padding: 0.4, 0.8;
+    fontSize: 0.8;
+    fontWeight: 500;
+    fontFamily: inherit;
+    backgroundColor: 0x1a1a1a;
+    cursor: pointer;
+    transition: borderColor, "0.25s";
+    userSelect: none;
+
+    css: hover: {
+      borderColor: 0x646cff;
+    }
+
+    css: active: {
+      outline: 4, auto, '-webkit-focus-ring-color';
+    }
+  }
 
   <button onClick={alertValues}>
     Show Values
