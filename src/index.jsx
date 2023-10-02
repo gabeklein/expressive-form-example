@@ -2,9 +2,8 @@ import './index.css';
 
 import { createRoot } from 'react-dom/client';
 
-import Demo from './Demo';
-import Thing from './Thing';
+import Form from './Form';
 
 createRoot(
   document.getElementById('root')
-).render(<Thing />)
+).render(<Form />)

@@ -39,7 +39,7 @@ const Alert = () => {
     display: block;
     margin: auto;
     borderRadius: 8;
-    border: px(1), solid, transparent;
+    border: '1px', solid, transparent;
     padding: 0.4, 0.8;
     fontSize: 0.8;
     fontWeight: 500;
