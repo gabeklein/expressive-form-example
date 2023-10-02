@@ -67,17 +67,15 @@ function jsxPlugin(options?: Options): PluginCompat {
       if(CACHE.has(id))
         return CACHE.get(id);
 
-      const source = await fs.readFile(path, "utf8");
-
       if(!shouldTransform(id))
         return;
 
+      const source = await fs.readFile(path, "utf8");
       const result = await transform(id, source, options);
 
-      if(result.css){
-        CACHE.set(id, result);
-        return result.code;
-      }
+      CACHE.set(id, result);
+
+      return result.code;
     },
     async handleHotUpdate(context){
       const { file } = context;
