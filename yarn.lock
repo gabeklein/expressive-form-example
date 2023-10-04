@@ -362,17 +362,17 @@
     chroma-js "^2.0.3"
     easing-coordinates "^2.0.2"
 
-"@expressive/mvc@^0.35.1":
+"@expressive/mvc@^0.35.2":
   version "0.35.2"
   resolved "https://registry.yarnpkg.com/@expressive/mvc/-/mvc-0.35.2.tgz#159876f4996e3f46c0755314126d0a7260cef79b"
   integrity sha512-GajnW0SMTp/hmwyMnOoIGSobuAxiYIVXl/fnWjx3bqB/pT5LMnWMnthThPsCyfsRB/h45az/fYJcn5r8yjIf5w==
 
-"@expressive/react@0.35.1":
-  version "0.35.1"
-  resolved "https://registry.yarnpkg.com/@expressive/react/-/react-0.35.1.tgz#a7530db3b07ba5cd516f91d54f4b49ecbb2f4095"
-  integrity sha512-57H9UApL2nv6r5zd7pYvd53k9QZmspRjbI6wmxkTNfeKC/0DPCA6KOCXgww6gP6ybDBCjiNvo9qWGOvvl3O7DA==
+"@expressive/react@^0.35.2":
+  version "0.35.2"
+  resolved "https://registry.yarnpkg.com/@expressive/react/-/react-0.35.2.tgz#11502e8aa89a6145c3d0de33481a0395f2a999c9"
+  integrity sha512-HVXEYar/l91phyEoGmRmvfGFDa2nyCiRp5ftl6+/W5ykdJDSUwMNqra+9cQX4BEGJtHw1k26A3vLEhwp6U+Ttg==
   dependencies:
-    "@expressive/mvc" "^0.35.1"
+    "@expressive/mvc" "^0.35.2"
 
 "@expressive/vite-plugin-jsx@^1.5.1":
   version "1.5.1"
@@ -427,7 +427,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.2.22":
+"@types/react@*":
   version "18.2.22"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.22.tgz#abe778a1c95a07fa70df40a52d7300a40b949ccb"
   integrity sha512-60fLTOLqzarLED2O3UQImc/lsNRgG0jE/a1mPW9KjMemY0LMITWEsbS4VvZ4p6rorEHd5YKxxmMKSDK505GHpA==
