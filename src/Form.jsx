@@ -27,8 +27,9 @@ const Demo = () => {
 
 const Alert = () => {
   const alertValues = Form.get(form => () => {
+    const current = form.get();
     const values = JSON
-      .stringify(form.get(), null, 2)
+      .stringify(current, null, 2)
       .replace(/[",]/g, "")
       .slice(2, -2);
 
